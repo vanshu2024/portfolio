@@ -69,9 +69,9 @@ const Navbar = () => {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
           <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Sachin</span>
+          <span className="text-white">Vanshika</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Maurya</span>
+          <span className="text-white">Gangwar</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
@@ -91,7 +91,7 @@ const Navbar = () => {
                 {item.label}
                 {/* Underline hover effect */}
                 <span
-                  className={`absolute left-0 bottom-[-4px] w-full h-[2px] bg-[#8245ec] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ${
+                  className={`absolute left-0 -bottom-1 w-full h-0.5 bg-[#8245ec] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ${
                     activeSection === item.id ? "scale-x-100" : ""
                   }`}
                 ></span>
@@ -103,7 +103,7 @@ const Navbar = () => {
         {/* Social Icons (Desktop) */}
         <div className="hidden md:flex space-x-5">
           <a
-            href="https://github.com/sachn2k4"
+            href="https://github.com/vanshu2024"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec] transition-colors duration-200"
@@ -111,7 +111,7 @@ const Navbar = () => {
             <FaGithub size={22} />
           </a>
           <a
-            href="https://www.linkedin.com/in/sachin-maurya-905148247/"
+            href="https://www.linkedin.com/in/vanshika-gangwar-3a81472b2/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec] transition-colors duration-200"
@@ -156,7 +156,7 @@ const Navbar = () => {
             {/* Social Icons in Mobile Menu */}
             <div className="flex space-x-6 pt-4">
               <a
-                href="https://github.com/sachn2k4"
+                href="https://github.com/vanshu2024"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-[#8245ec] transition-colors duration-200"
@@ -164,7 +164,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/sachin-maurya-905148247/"
+                href="https://www.linkedin.com/in/vanshika-gangwar-3a81472b2/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-[#8245ec] transition-colors duration-200"
